@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FeedingMechanism
+comment0.text=\r\n\ Class\ that\ contains\ methods\ required\ to\ simulate\ feeding\r\n\ Only\ animals\ that\ implement\ ActorCanFeed\ may\ use\ these\ methods\r\n\r\n\ @author\ Lubna\ Taraki\ and\ Kelvin\ Eforhare\ \r\n\ @version\ 2021.03.01\r\n\r\n
+comment1.params=thisActor
+comment1.target=FeedingMechanism(ActorCanEat)
+comment1.text=\r\n\ Create\ an\ object\ that\ contains\ methods\ that\ simulate\ feeding\r\n\ @param\ thisActor\ Actor\ that\ is\ currently\ finding\ food\ \r\n
+comment2.params=potentialPrey\ weather
+comment2.target=Location\ findFood(java.util.HashMap,\ Weather)
+comment2.text=\ \ \r\n\ Scope\ of\ findFood\ changes\ with\ weather\r\n\ @param\ potentialPrey\ the\ hashmap\ of\ the\ prey\ and\ food\ value\ that\ actor\ consumes\ \r\n\ @param\ weather\ the\ current\ weather\r\n\ @return\ location\ of\ the\ food\r\n
+comment3.params=potentialPrey\ location\ field
+comment3.target=Location\ foodLocation(java.util.HashMap,\ Location,\ Field)
+comment3.text=\ \ \r\n\ Checks\ location\ to\ see\ if\ it\ is\ actors\ prey\r\n\ @param\ potentialPrey\ the\ hashmap\ of\ the\ prey\ and\ food\ value\ that\ actor\ consumes\ \r\n\ @param\ field\ the\ field\ \r\n\ @param\ Location\ the\ location\ to\ check\r\n\ @return\ location\ the\ location\ of\ the\ actor\ it\ can\ eat\r\n
+comment4.params=
+comment4.target=void\ setInitialFoodValue()
+comment4.text=\r\n\ Sets\ the\ actor's\ food\ level\r\n\ If\ newborn\ has\ max\ food\ level\ otheriwse\ random\ food\ \r\n\ level\ provided\r\n
+numComments=5

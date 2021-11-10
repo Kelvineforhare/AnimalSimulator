@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=BreedingMechanism
+comment0.text=\r\n\ Class\ that\ contains\ methods\ required\ to\ simulate\ breeding\r\n\ Actors\ may\ only\ breed\ if\ they\ fulfill\ all\ bredding\ conditions\ \r\n\ Probability\ that\ elegible\ animals\ may\ not\ breed\ even\ though\ conditions\ are\ met\ \r\n\ \r\n\ @author\ Lubna\ Taraki\ and\ Kelvin\ Eforhare\ \r\n\ @version\ 2021.03.01\r\n
+comment1.params=actor
+comment1.target=BreedingMechanism(ActorCanBreed)
+comment1.text=\r\n\ Create\ an\ object\ that\ contains\ methods\ that\ simulate\ breeding\r\n\ @param\ actor\ Actor\ that\ could\ potentially\ breed\ \r\n
+comment2.params=
+comment2.target=int\ breed()
+comment2.text=\r\n\ Generate\ a\ number\ representing\ the\ number\ of\ births,\r\n\ if\ it\ can\ breed.\r\n\ @return\ The\ number\ of\ births\ (may\ be\ zero).\r\n
+comment3.params=
+comment3.target=boolean\ checkBreedingAge()
+comment3.text=\r\n\ An\ actor\ can\ breed\ if\ it\ has\ reached\ the\ breeding\ age.\ \r\n\ @return\ true\ if\ age\ above\ breeding\ age\r\n
+comment4.params=adjacentactors
+comment4.target=boolean\ canBreed(java.util.List)
+comment4.text=\r\n\ An\ actor\ can\ breed\ if\ it\ of\ the\ same\ type\ if\ they\ are\ opposite\ genders\ and\ if\ they\ are\ above\ breeding\ age.\ \r\n\ @param\ adjacentActors\ provides\ list\ of\ adjacent\ actors\ \r\n\ @return\ true\ if\ the\ breeding\ condtions\ are\ all\ met\r\n
+comment5.params=newActors
+comment5.target=void\ giveBirth(java.util.List)
+comment5.text=\r\n\ Check\ whether\ or\ not\ this\ actor\ is\ to\ give\ birth\ at\ this\ step.\r\n\ New\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\r\n\ @param\ newactors\ A\ list\ to\ return\ newly\ born\ actors.\r\n
+comment6.params=otherActor
+comment6.target=boolean\ isSameactor(ActorCanBreed)
+comment6.text=\ \r\n\ @return\ true\ if\ two\ actors\ are\ of\ the\ same\ dynamic\ type\r\n
+numComments=7

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Weather
+comment0.text=\r\n\ A\ class\ used\ to\ represent\ the\ weather\r\n\r\n\ @author\ Lubna\ Taraki\ and\ Kelvin\ Eforhare\ \r\n\ @version\ 2021.03.01\r\n
+comment1.params=
+comment1.target=Weather\ getWeather()
+comment1.text=\ \ \r\n\ Whether\ is\ generated\ randomly\ \r\n\ @return\ the\ current\ weather\ as\ an\ enum\ variable\ \ \r\n
+comment2.params=
+comment2.target=Weather\ getNormal()
+comment2.text=\ \ \r\n\ Used\ as\ a\ default\ weather\r\n\ @return\ Normal\ weather\ enum\ variable\r\n
+numComments=3
