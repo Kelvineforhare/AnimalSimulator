@@ -1,4 +1,4 @@
-Project: foxes-and-rabbits-v2
+Project: Animal simulate
 Authors: Michael Kölling,David J. Barnes, Kelvin Eforhare and Lubna Taraki
 
 This project is part of the material for chapter 10 of the book
